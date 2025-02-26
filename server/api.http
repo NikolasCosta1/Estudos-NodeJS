@@ -1,0 +1,11 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+    "name": "Nikolas Costa",
+    "email": "nikolas@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/invites/nikolas123
